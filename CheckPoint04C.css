@@ -1,0 +1,204 @@
+.Navigators {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    
+   
+  
+
+}
+#Logo{
+  
+    
+    margin-left: 40px;
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+}
+.Options{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly ;
+
+width: 800px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: grey;
+list-style-type: none;
+font-size: 120%;
+margin: 0;
+
+
+}
+
+.SignUp-Login :nth-child(1){
+    
+color: rgb(60, 180, 252);
+margin-right: 5px;
+font-size: 110%;
+border: none;
+background: white;
+}
+.SignUp-Login :nth-child(2){
+    
+      color: grey;
+      border: none; 
+      background: white;
+    
+      font-size: 110%;
+      
+
+}
+.SignUp-Login{
+    display: flex;
+    justify-content:space-evenly;
+    height: 75px;
+    width: 40%;
+    
+
+}
+header :first-child {
+      /* background: 100% blue;   */
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black;  */
+    justify-content: space-between;
+    border: 2px black;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+}
+#Watch-Button{
+      background: white  ;  
+     height: 40px;
+     width: 120px;
+     border: none;
+     border-radius: 4px;
+     
+     font-size: 102%;
+}
+header{
+     display: flex; 
+     justify-content: space-around  ; 
+    background: rgb(207, 156, 165);
+    
+}
+#VideoSoftware{
+    display: flex;
+    align-self: flex-start;
+    color: rgb(247, 245, 246);
+
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    
+    
+}
+#Block01{
+     
+    align-self: center;
+     background:  rgb(254, 210, 75); 
+     height:  250px;
+     
+    
+    
+
+}
+#Block02{
+        
+    align-self: center;
+    background:  rgb(80, 194, 160);
+    height:  250px;
+    
+    
+}
+#Block03{
+    
+    align-self: center;
+    background:  rgb(62, 170, 245);
+    height:  250px;
+    
+}
+
+
+main div{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+    
+    
+    
+    
+}
+.Headline{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(247, 245, 246);
+}
+.Reference-Logo{
+
+    border: 2px red;
+    justify-content: flex-start;
+}
+.Buttons{
+
+    background: none;
+    border-radius:  4px;
+    height: 45px;
+    width: 125px;
+    margin-top: 5px;
+    
+    
+}
+.Underlined{
+    text-decoration-line: underline ;
+}
+footer {
+    background: rgb(42, 45, 54);
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.Headers {
+    color: white;
+    
+}
+#Links{
+    color: blue;
+    
+}
+#Presentation{
+    color: white;
+} 
+.Product{
+    margin-top: 30px;
+    color: white;
+}
+.Product > p {
+    color: rgb(177, 176, 176);
+}
+.Company{
+    margin-top: 30px;
+    color: white;
+
+}
+.Company > p{
+    color: rgb(177, 176, 176);
+}
+.Learn {
+    margin-top: 30px;
+    color: white;
+}
+.Learn > p {
+    color: rgb(177, 176, 176);
+}
+.Support {
+    margin-top: 30px;
+    color: white;
+}
+.Support > p {
+    color: rgb(177, 176, 176);
+}
